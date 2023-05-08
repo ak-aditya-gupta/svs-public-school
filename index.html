@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>SVS - Login</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <section>
+        <div class="page">
+
+            <div class="form">
+                <h1> SVS PUBLIC SCHOOL <br> ---Login---</h1>
+                <form action="">
+                    <div class="input-box">
+                        <label>Username</label>
+                        <br>
+                        <input type="text" placeholder="Type your username" id="username" autocomplete="off" required>
+                    </div>
+                    <div class="input-box">
+                        <label>Password</label>
+                        <br>
+                        <input type="password" placeholder="type your password" id="password" autocomplete="off" required>
+                    </div>
+                    <button class="btn" value="Submit" onclick="func()" >Login</button>
+                </form>
+            </div>
+        </section>
+        </div>
+        <script>
+            function func(){
+                var username = document.getElementById("username").value;
+                var password = document.getElementById("password").value;
+                if (username == "svs123" && password == "1234"){
+                    alert("Login Successfully");
+                    window.open("https://ak-aditya-gupta.github.io/Front-end/");
+                }
+                else{
+                    alert("Wrong User or Password");
+                }
+            }
+        </script>
+    </body>
+</html>
