@@ -7,13 +7,13 @@
     margin: 0 auto;
 }
 .container {
-    width: 100%;
-    max-width: 960px;
+    width: 10%;
+    max-width: 900px;
     margin: 0 auto;
   }
 body {
-    text-align: center;
-    height: 200%;
+    text-align: left;
+    height: 10%;
     width: 10%;
     background-image: url(bg.png);
     /*background-position: center;*/
@@ -22,9 +22,9 @@ body {
 
 .page {
     position: absolute;
-    top: 25%;
-    left: 25%;
-    width: 400px;
+    top: 10%;
+    left: 2%;
+    width: 35px;
 }
 
 .form {
