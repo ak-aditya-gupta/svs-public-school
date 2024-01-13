@@ -22,18 +22,18 @@ body {
 
 .page {
     position: absolute;
-    top: 10%;
-    left: 2%;
-    width: 35px;
+    top: 6%;
+    left: 0%;
+    width: 23px;
 }
 
 .form {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
     text-align: left;
     display: inline-block;
     margin: auto;
-    width: 400px;
+    width: 350px;
     position: absolute;
     top: 50% !important;
     left: 50%;
